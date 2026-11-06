@@ -1,1 +1,0 @@
-# InterSection-Exercices
