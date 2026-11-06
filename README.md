@@ -1,1 +1,1 @@
-# InterSection-Exer-i
+# InterSection-Exercice
