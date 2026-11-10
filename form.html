@@ -16,26 +16,9 @@
     <label for="fname">Prénom :</label><br>
     <input type="texte" value=""><br>
     <label for="birthday">Date de naissance :</label><br>
-    <input type="texte" value=""><br>
+    <input type="date" value=""><br>
     <label for="password">Mot de passe :</label><br>
-    <input type="text" id="password">
-
-<script>
-const input = document.getElementById('password');
-let reelTexte = '';
-
-input.addEventListener('input', (e) => {
-  const val = e.target.value;
-  if (val.length > reelTexte.length) {
-    reelTexte += val.slice(reelTexte.length);
-  } else {
-    reelTexte = reelTexte.slice(0, val.length);
-  }
-  // Affiche des astérisques de la même longueur
-  input.value = '*'.repeat(reelTexte.length);
-});
-</script>
-
+    <input type="password" id="password">
     <button type="submit">S'inscrire</button>
       <br><label>
     <input type="radio" name="choice" value="Homme" checked> Homme
