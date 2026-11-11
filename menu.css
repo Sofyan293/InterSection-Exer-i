@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    width: 170px;
+    background-color: #ccccff;
+    padding: 20px;
+    margin: 0;
+}
+
+li {
+    border-bottom: 1px solid #f0f0f0;
+    height: 25px;
+    line-height: 25px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+a {
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+
+a:hover {
+    color: #f0f0f0;
+    text-decoration: underline;
+}
