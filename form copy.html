@@ -13,11 +13,16 @@ crossorigin="anonymous">
 <body>
 
   <form>
+
     <br><h1>Inscription</h1><br>
-    <label for="lname">Nom :</label><br>
-    <input type="texte" value=""><br>
-    <label for="fname">Prénom :</label><br>
-    <input type="texte" value=""><br>
+    <div class="row g-3">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+  </div>
+</div>
     <label for="birthday">Date de naissance :</label><br>
     <input type="date" value=""><br>
     <label for="password">Mot de passe :</label><br>
